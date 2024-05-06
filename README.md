@@ -7,4 +7,4 @@ In this repo, I experiment with the real of reinforcement learning (RL) algorith
 
 
 
-## NOTE: This was done as a part of the coursework of CSE 546 at the University at Buffalo. The source code is not available publicly to avoid academic integrity violations. Please reach out to author to discuss teh source code.
+### NOTE: This was done as a part of the coursework of CSE 546 at the University at Buffalo. The source code is not available publicly to avoid academic integrity violations. Please reach out to author to discuss teh source code.
