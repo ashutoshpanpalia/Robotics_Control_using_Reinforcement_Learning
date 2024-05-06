@@ -13,7 +13,10 @@ In the last few years, Reinforcement Learning (RL) has become a popular nonlinea
 6. DDPG
 
 I will begin by discussing the results of the above algorithm before diving into a detailed analysis of both the algorithm and the contorl problem statement it tackles
-# Results
+# Results:
+https://github.com/ashutoshpanpalia/CSE-546_Final_project/assets/43078289/f666223f-1f4b-4ab4-b460-3b465fd45e41
+https://github.com/ashutoshpanpalia/CSE-546_Final_project/assets/43078289/992e13a7-e604-4a20-8dd1-7a0e0ff8c4d8
+https://github.com/ashutoshpanpalia/CSE-546_Final_project/assets/43078289/79ff6b94-0768-432c-878f-6fee142c2723
 
 
 
