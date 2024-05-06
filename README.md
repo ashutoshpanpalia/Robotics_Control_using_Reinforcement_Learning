@@ -39,15 +39,19 @@ Objective of the Agent is to maximize the reward starting from position (0,0)
 
 
 
-## DQN
+## Deep Q-Network (DQN)
 The DQN algorithm was first described in Human-level control through deep reinforcement learning paper by DeepMind. I implemented the DQN algorithm and also implemented the improved version of DQN through integration of Prioritized Experience Replay (PER). All the algorithms are built from scratch. The following environments were solved:
 1. CartPole Gymnasium Environment
 2. Lunar Lander Gymnasium Environment
 
 Discussion:
+
 Target and Q-Network: DQN utilizes two neural networks, the Q-network and the Q-target, to stabilize the learning process. While the Q-network is updated frequently using experiences from the replay memory, the Q-target is updated less often to maintain stability and prevent divergence.
+
 Experience Replay: Experience replay stores experiences in a memory buffer, enabling the agent to learn from a diverse set of past experiences. This approach improves sample efficiency and allows for the reuse of experiences multiple times during training.
+
 Loss Calculation and Backpropagation: DQN calculates the loss using mean-squared error between the Q-values from the Q-target and the rewards plus discounted future rewards from the Q-network. Backpropagation is then used to update the neural network weights and biases.
+
 Priority Experience Replay (PER): PER prioritizes experiences based on their significance, allowing the agent to learn more efficiently by replaying important transitions more frequently. Implementing PER leads to faster learning and better final policy quality compared to uniform experience replay.
 
 
