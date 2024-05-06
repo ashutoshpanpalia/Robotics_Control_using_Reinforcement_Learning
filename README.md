@@ -77,7 +77,7 @@ Discussion:
 
 A2C algorithm was successful to solve the different discrete environments (Cartpole, Acrobot). After training, the greedy-policy followed was by choosing the action with the highest probability from the trained actor-network. The challenges faced during training were due to learning instability. The algorithm would train to get the optimal policy but would immediately ‘forget’ the policy and the rewards would drop suddenly. This issue is mitigate development by incorporating early-stopping while training.
 
-The inability of A2C to explore due to shrinking of standard deviation led to learning of a particular action instead of a generalized solution. This also occurred because of exploring poor
+A2C drawback for complex continuous environments: The inability of A2C to explore due to shrinking of standard deviation led to learning of a particular action instead of a generalized solution. This also occurred because of exploring poor
 transitions (Transition with high negative reward) a lot more frequently than good transitions(Transition with positive rewards), which cause the network to learn to find a solution
 of local minima and not explore high rewarding future states and action. This is one of the major challenges of the policy gradient method using Actor Critic methods, which have been solved by
 adding replay buffers to store high priority transitions and sample good actions frequently in the DDPG algorithm. Consequently, A2C struggled to discover the optimal policy in continuous
