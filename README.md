@@ -12,6 +12,11 @@ In the last few years, Reinforcement Learning (RL) has become a popular nonlinea
 5. A2C continuous action sapce
 6. DDPG
 
+I will begin by discussing the results of the above algorithm before diving into a detailed analysis of both the algorithm and the contorl problem statement it tackles
+# Results
+
+
+
 
 
 
