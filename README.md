@@ -54,6 +54,24 @@ Loss Calculation and Backpropagation: DQN calculates the loss using mean-squared
 
 Priority Experience Replay (PER): PER prioritizes experiences based on their significance, allowing the agent to learn more efficiently by replaying important transitions more frequently. Implementing PER leads to faster learning and better final policy quality compared to uniform experience replay.
 
+## Advantage Actor Critic algorithm (A2C)
+A2C algorithm is the synchronous version of A3C (Asynchronous Advantage Actor Critic) algorithm. The A2C algorithm is a combination of value-based and policy based methods to learn policy. And it also have variance less than Monte Carlo policy gradient method.
+
+A2C have 2 network:
+
+Actor: Actor takes observation as input and outputs the action. This is the policy that the agent
+has to learn and use during greedy policy execution.
+
+Critic: Critic approximates how good the action is and in what direction the actor network need
+to be updated.
+
+A2C was implemented using Advantage value as the critic.
+
+Advantage = Reward + γ * V(next state) - V(current state)
+
+Actor Loss= -( log(π(a|s)) * Advantage)
+
+Critic Loss = MSE(R + γ * V(next state) and V(current state))
 
 
 
