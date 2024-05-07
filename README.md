@@ -88,6 +88,17 @@ of local minima and not explore high rewarding future states and action. This is
 adding replay buffers to store high priority transitions and sample good actions frequently in the DDPG algorithm. Consequently, A2C struggled to discover the optimal policy in continuous
 environments like Pusher, MountainCar continuous, and Bipedal.
 
+## Deep Deterministic Policy Gradient (DDPG)
+
+DDPG combines the benefits of DQN and actor critic methods where algorithm learns Q-value and a policy concurrently while utilizing a repl;ay buffer for sample efficiency. This is an off policy algorithm. The integration of a replay buffer facilitates learning from past experiences, thereby improving sample efficiency. 
+
+Furthermore, DDPG's design makes it particularly well-suited for continuous environments, such as the Pusher environment selected for the project.
+
+Improvement made in vanilla DDPG:
+To improve the sample efficiency and exploring the environment better, I devised the noise in epsilon greedy fashion to ensure high exploration during early stages of the training and over time converges to a smaller value.
+
+
+
 
 
 ### NOTE: This was done as a part of the coursework of CSE 546 at the University at Buffalo. The source code is not available publicly to avoid academic integrity violations. Please reach out to author to discuss teh source code.
