@@ -15,7 +15,6 @@ In the last few years, Reinforcement Learning (RL) has become a popular nonlinea
 I will begin by discussing the results of the above algorithm before diving into a detailed analysis of both the algorithm and the contorl problem statement it tackles
 # Results:
 
-
 https://github.com/ashutoshpanpalia/Robotics_Control_using_Reinforcement_Learning/assets/43078289/133aa53b-9f90-43d6-b2fa-9c00c55050c0
 
 https://github.com/ashutoshpanpalia/CSE-546_Final_project/assets/43078289/f666223f-1f4b-4ab4-b460-3b465fd45e41
@@ -24,9 +23,19 @@ https://github.com/ashutoshpanpalia/CSE-546_Final_project/assets/43078289/992e13
 
 https://github.com/ashutoshpanpalia/CSE-546_Final_project/assets/43078289/79ff6b94-0768-432c-878f-6fee142c2723
 
+# Discusion:
+1. Q-Learning: Simple and effective for small state spaces, but struggles with dimensionality curse.
+2. Q-Learning with SARSA: Improves learning stability compared to Q-learning.
+3. Double Q-Learning: Mitigates overestimation bias seen in Q-learning.
+4. While all these variations improve upon Q-learning, they are generally better suited for smaller state spaces due to their reliance on table-based methods.
+5. DQN: Powerful for large state spaces with function approximation, but can be unstable.
+6. DQN with PER: Improves DQN efficiency by prioritizing important experiences in replay buffer.
+7. DQN leverages the neural networks to approximate value function but is limited to discrete action space.
+6. A2C effectively utilizes a critic network to evaluate actions, making it suitable for environments with discrete actions
+7. A2C for continuous environments: Exploration challenges limit its effectiveness.
+8. DDPG: Well-suited for continuous control due to experience replay and off-policy learning.
 
-
-# Discusion of algorithms
+# Deep diving into algorithms
 ## Q-Learning
 4x4 Grid implying a 16 state environment
 Terminal reward at (3,3): 1000; 
@@ -100,6 +109,9 @@ Furthermore, DDPG's design makes it particularly well-suited for continuous envi
 
 Improvement made in vanilla DDPG:
 To improve the sample efficiency and exploring the environment better, I devised the noise in epsilon greedy fashion to ensure high exploration during early stages of the training and over time converges to a smaller value.
+
+# Future Work
+
 
 
 
