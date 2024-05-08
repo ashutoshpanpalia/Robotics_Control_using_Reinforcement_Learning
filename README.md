@@ -1,6 +1,6 @@
 # Robotics Control using Reinforcement Learning
 ## Abstract:
-In this repo, I experiment with the real of reinforcement learning (RL) algorithms to solve robotics control problems. The work spans Q-Learning, Deep Q-Networks (DQN), Advantage Actor-Critic (A2C), and Deep Deterministic Policy Gradient (DDPG).
+In this repo, I experiment with the reinforcement learning (RL) algorithms to solve robotics control problems. The work spans on Q-Learning, Deep Q-Networks (DQN), Advantage Actor-Critic (A2C), and Deep Deterministic Policy Gradient (DDPG).
 
 ## Introduction:
 In the last few years, Reinforcement Learning (RL) has become a popular nonlinear control method. RL has a powerful potential to control systems with high non-linearity and complex dynamics. In this repo, we explore several RL algorithms and their effectiveness in solving different control problems. The following algorithms will be discussed along with their application on different control environment:
