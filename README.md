@@ -17,11 +17,15 @@ I will begin by discussing the results of the above algorithm before diving into
 
 https://github.com/ashutoshpanpalia/Robotics_Control_using_Reinforcement_Learning/assets/43078289/133aa53b-9f90-43d6-b2fa-9c00c55050c0
 
-https://github.com/ashutoshpanpalia/CSE-546_Final_project/assets/43078289/f666223f-1f4b-4ab4-b460-3b465fd45e41
 
-https://github.com/ashutoshpanpalia/CSE-546_Final_project/assets/43078289/992e13a7-e604-4a20-8dd1-7a0e0ff8c4d8
 
-https://github.com/ashutoshpanpalia/CSE-546_Final_project/assets/43078289/79ff6b94-0768-432c-878f-6fee142c2723
+https://github.com/ashutoshpanpalia/Robotics_Control_using_Reinforcement_Learning/assets/43078289/801e12a3-3ed8-49c6-bbe3-24d015a71112
+
+
+
+https://github.com/ashutoshpanpalia/Robotics_Control_using_Reinforcement_Learning/assets/43078289/e9d16e63-82d2-41b3-a45c-4ae080219302
+
+
 
 # Discusion:
 1. Q-Learning: Simple and effective for small state spaces, but struggles with dimensionality curse.
