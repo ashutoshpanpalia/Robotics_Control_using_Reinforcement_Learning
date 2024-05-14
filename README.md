@@ -15,12 +15,9 @@ In the last few years, Reinforcement Learning (RL) has become a popular nonlinea
 I will begin by discussing the results of the above algorithm before diving into a detailed analysis of both the algorithm and the contorl problem statement it tackles
 # Results:
 
-https://github.com/ashutoshpanpalia/Robotics_Control_using_Reinforcement_Learning/assets/43078289/133aa53b-9f90-43d6-b2fa-9c00c55050c0
-
-
+https://github.com/ashutoshpanpalia/Robotics_Control_using_Reinforcement_Learning/assets/43078289/af340b9e-f0a0-40ab-a682-454679d73706
 
 https://github.com/ashutoshpanpalia/Robotics_Control_using_Reinforcement_Learning/assets/43078289/801e12a3-3ed8-49c6-bbe3-24d015a71112
-
 
 
 https://github.com/ashutoshpanpalia/Robotics_Control_using_Reinforcement_Learning/assets/43078289/e9d16e63-82d2-41b3-a45c-4ae080219302
