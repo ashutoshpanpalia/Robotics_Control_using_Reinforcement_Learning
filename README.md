@@ -25,6 +25,10 @@ https://github.com/ashutoshpanpalia/Robotics_Control_using_Reinforcement_Learnin
 
 https://github.com/ashutoshpanpalia/Robotics_Control_using_Reinforcement_Learning/assets/43078289/e9d16e63-82d2-41b3-a45c-4ae080219302
 
+Comparison of A2C and DDPG rewards during training
+
+ ![Comparison_a2C_and_DDPG](https://github.com/ashutoshpanpalia/Robotics_Control_using_Reinforcement_Learning/assets/43078289/d8bd35c6-faa6-43ab-b125-4a2d507f2339)
+
 
 
 # Discusion:
