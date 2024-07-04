@@ -125,4 +125,4 @@ To improve the sample efficiency and exploring the environment better, I devised
 
 
 
-### NOTE: This work was done as part of coursework CSE-546 at the University at Buffalo. The source code is not available publicly to avoid academic integrity violations. Please reach out to author to discuss teh source code.
+### NOTE: This work was done as part of coursework CSE-546 at the University at Buffalo. The source code is not available publicly to avoid academic integrity violations. Please reach out to author to discuss the source code.
